@@ -46,7 +46,7 @@ function messagesResult() {
     alert(
       "Boa pontuação carne fresca. Sua pontuação foi de: " + state.values.result
     );
-  } else if (state.values.result >= 5 && state.values.result <= 10) {
+  } else if (state.values.result > 5 && state.values.result <= 10) {
     alert(
       "Parabéns! Você fez sua obrigação. Sua pontuação foi de:  " +
         state.values.result
